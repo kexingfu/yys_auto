@@ -22,14 +22,14 @@ class FindButton(threading.Thread):
                 pyautogui.click(self.x, self.y, duration=0.25)
 
                 #双开
-                if(self.picture == './img/over.PNG' and self.x > 960):
-                    pyautogui.click(self.x-960,self.y+1,duration=0.1)
-                    pyautogui.click(self.x+1,self.y+1,duration=0.1)
-                    pyautogui.click(self.x-960,self.y-1,duration=0.1)
-                if(self.picture == './img/over.PNG' and self.x < 960):
-                    pyautogui.click(self.x+960,self.y+1,duration=0.1)
-                    pyautogui.click(self.x+1,self.y+1,duration=0.1)
-                    pyautogui.click(self.x+960,self.y-1,duration=0.1)
+#                 if(self.picture == './img/over.PNG' and self.x > 960):
+#                     pyautogui.click(self.x-960,self.y+1,duration=0.1)
+#                     pyautogui.click(self.x+1,self.y+1,duration=0.1)
+#                     pyautogui.click(self.x-960,self.y-1,duration=0.1)
+#                 if(self.picture == './img/over.PNG' and self.x < 960):
+#                     pyautogui.click(self.x+960,self.y+1,duration=0.1)
+#                     pyautogui.click(self.x+1,self.y+1,duration=0.1)
+#                     pyautogui.click(self.x+960,self.y-1,duration=0.1)
 
                 #单人
                 # if(self.picture == './img_s/over.PNG'):
