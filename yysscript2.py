@@ -52,6 +52,7 @@ class FindButton(threading.Thread):
 
 #默认分辨率
 challenge = FindButton('tiaozhan.PNG',0.95,[-50,50,-10,10])
+#参数（图片名，识别准确度，[前两个参数为x坐标随机增加的值（如-50~50，即在范围内随机取一个值加到识别到图片的坐标上），后两个参数为y坐标随机增加的值]）
 xuanshang = FindButton('xuanshang.PNG',0.95,[100,120,-25,-15])
 over = FindButton('over.PNG',0.8,[-200,200,-10,10])
 
